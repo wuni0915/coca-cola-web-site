@@ -33,6 +33,7 @@ header p {
 
 .menu {
   text-align: center;
+  border-bottom: 1px solid #000;
 }
 
 .menu a {
@@ -48,10 +49,10 @@ header p {
 
 .hero {
   /* background-color: #222; */
-  background: url("./images/Frame\ 2.png") no-repeat;
+  background: url("./images/Frame\ 3.png") no-repeat;
   background-size: 100%;
   text-align: center;
-  padding: 100px 0 50px 0;
+  padding: 100px 0 100px 0;
   border: 1px solid #000;
 }
 
@@ -65,11 +66,11 @@ header p {
 }
 
 .hero p {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .button {
   display: inline-block;
-  background-color: #333;
+  background-color: #33333367;
   border-radius: 20px;
   border: 1px solid #fff;
   padding: 10px 20px;
@@ -106,9 +107,10 @@ footer p {
 .coca {
   padding: 20px;
   border: 1px solid #000;
+  margin-bottom: 50px;
 }
 
-.coca h2 {
+.cherry h2 {
   color: #ff5757;
 }
 
@@ -119,4 +121,49 @@ footer p {
 .coca p {
   font-size: 14px;
   margin: 10px 0 30px 0;
+}
+
+.lemon h2 {
+  color: #a5b100;
+}
+
+/* 체리 서브 페이지 */
+
+.cherry_sub {
+  width: 40%;
+  margin: 50px auto;
+}
+
+
+
+.cherry ul {
+  margin: 20px;
+}
+.cherry ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.cherry span {
+  display: block;
+}
+
+/* 레몬 라임 서브페이지 */
+
+.lemon_sub {
+  width: 40%;
+  margin: 50px auto;
+}
+
+
+.lemon ul {
+  margin: 20px;
+}
+.lemon ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.lemon span {
+  display: block;
 }
