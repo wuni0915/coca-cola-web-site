@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+header {
+  background-color: red;
+  text-align: center;
+  padding: 15px 0;
+}
+/* 헤더 */
+header .logo {
+  /* font-size: ; */
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header p {
+  font-style: italic;
+}
+/* 메뉴 */
+
+.menu {
+  text-align: center;
+}
+
+.menu a {
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.menu a img {
+  width: 100px;
+}
+/* 메인 배너 */
+
+.hero {
+  /* background-color: #222; */
+  background: url("./images/Frame\ 2.png") no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding: 100px 0 50px 0;
+  border: 1px solid #000;
+}
+
+.hero * {
+  color: #fff;
+}
+
+.hero h1,
+.hero p {
+  padding: 10px 0;
+}
+
+.hero p {
+  margin-bottom: 60px;
+}
+.button {
+  display: inline-block;
+  background-color: #333;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/* 공통영역 */
+section {
+  width: 40%;
+  margin: 100px auto;
+}
+
+section hr {
+  border: 2px solid red;
+  /* border-radius: 50px; */
+}
+
+footer {
+  background-color: #222;
+  padding: 50px;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+
+.footer_hr {
+  border-color: #fff;
+  margin: 0 0 30px 0;
+}
+/* 추천 음료 */
+.coca {
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.coca h2 {
+  color: #ff5757;
+}
+
+.coca img {
+  width: 100%;
+}
+
+.coca p {
+  font-size: 14px;
+  margin: 10px 0 30px 0;
+}
